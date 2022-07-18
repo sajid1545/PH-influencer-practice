@@ -11,10 +11,15 @@ body {
 
 /* nav bar */
 
+
 nav {
     width: 83%;
     margin: 0 auto;
 
+}
+
+.hamburger {
+    display: none;
 }
 
 .navbar {
@@ -22,6 +27,10 @@ nav {
     justify-content: space-between;
     margin-top: 80px;
     align-items: center;
+}
+
+.logo .fa-cart-plus {
+    display: none;
 }
 
 .logo-title {
@@ -298,6 +307,10 @@ footer {
 
 @media only screen and (max-width: 678px) {
 
+    nav {
+        width: 100%;
+    }
+
     .top-banner {
         width: 100%;
         margin: 0;
@@ -316,7 +329,7 @@ footer {
     }
 
     .influencer-journey .button {
-        margin-left: 34%;
+        margin: auto;
     }
 
     .customers-box {
@@ -329,6 +342,10 @@ footer {
         width: 100%;
         text-align: center;
         padding: 0;
+    }
+
+    .customer-image img {
+        width: 70%;
     }
 
 
@@ -368,20 +385,54 @@ footer {
     }
 
     .join-button {
+
         width: 150px;
+        margin: auto;
         height: 40px;
-        margin-left: 35%;
-        margin-bottom: 5%;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    /* navigation bar */
+
+    .navbar {
+        margin-top: 30px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .nav-pages {
+        display: none;
     }
 
 
+    .hamburger {
+        display: block;
+        font-size: 20px;
+    }
+
+    .fa-magnifying-glass {
+        display: block;
+    }
+
+    .logo .fa-cart-plus {
+        display: block;
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
 
-    nav,
-    /* .customers, */
-    /* .collection-container, */
-    /* .featuered-products,
-    footer {
-        display: none;
-    } */
+    .footer-info {
+        width: 100%;
+    }
+
 }

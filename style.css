@@ -395,6 +395,10 @@ footer {
 
     /* navigation bar */
 
+    .logo-title {
+        font-size: 18px;
+    }
+
     .navbar {
         margin-top: 30px;
     }

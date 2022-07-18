@@ -200,6 +200,24 @@ nav {
     font-size: 24px;
 }
 
+.ratings .fa-star,
+.fa-star-half {
+    color: #FB8200;
+    font-size: 11px;
+}
+
+
+.ratings span {
+    color: #5E6366;
+    font-size: 14px;
+}
+
+.collection-info {
+    color: #787885;
+    font-weight: 700;
+    font-size: 14px;
+}
+
 .see-more {
     display: flex;
     align-items: center;

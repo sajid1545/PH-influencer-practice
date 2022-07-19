@@ -148,6 +148,7 @@ nav {
 }
 
 
+
 /* collections css */
 
 
@@ -330,8 +331,12 @@ footer {
     }
 
     .top-banner {
-        width: 100%;
-        margin: 0;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .journey-title {
+        font-size: 30px;
     }
 
     .influencer-journey {
@@ -352,8 +357,10 @@ footer {
 
     .customers-box {
         grid-template-columns: repeat(4, 1fr);
-        justify-content: center;
+
     }
+
+
 
     .customers {
         border: 0;
@@ -388,13 +395,17 @@ footer {
 
     .featuered-products {
         flex-direction: column-reverse;
-        width: 100%;
+        width: 90%;
         text-align: center;
-        margin: 0;
+        margin: 0 auto;
         margin-bottom: 20px;
     }
 
     .half-featured {
+        width: 100%;
+    }
+
+    .half-featured img {
         width: 100%;
     }
 

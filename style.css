@@ -81,9 +81,16 @@ nav {
     width: 50%;
 }
 
+.journey-image {
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .half-journey img {
     width: 70%;
-    /* margin-left: 133px; */
+    margin-left: 12%;
 }
 
 .journey-title {
@@ -294,16 +301,21 @@ nav {
     font-size: 24px;
 }
 
+
+/* footer */
+
+
 footer {
     background: #0A0826;
     color: white;
     width: 100%;
     margin: auto;
+    padding: 5% 0%;
+    padding-bottom: 3px;
 }
 
 .footer-info {
     text-align: center;
-    padding: 5% 0%;
 }
 
 .footer-info h3 {
@@ -320,7 +332,21 @@ footer {
     margin-bottom: 5px;
 }
 
+.social-links {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+}
 
+.social-links i {
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
 
 /* responsive */
 
@@ -345,6 +371,11 @@ footer {
         text-align: center;
         align-items: center;
 
+    }
+
+    .half-journey img {
+        width: 100%;
+        margin-left: 0;
     }
 
     .influencer-journey .half-journey {
